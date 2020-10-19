@@ -11,7 +11,7 @@ var testing;
 
 button.addEventListener("click", function () {
   fetch(
-    "http://api.openweathermap.org/data/2.5/weather?q=" +
+    "https://api.openweathermap.org/data/2.5/weather?q=" +
       cityname.value +
       "&appid=4fa11cd50631e05ce049eac155b59eb7"
   )
